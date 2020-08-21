@@ -1,0 +1,12 @@
+npm init -y - Iniciar server
+npm i json-server - Instalar dependências para construir API
+
+JsonServer: ler um arquivo que tenha jason e cria um API baseado nesse jason.
+
+criar arquivo db.json
+
+Cria os objetos em db.json
+
+Em package.json na área de scripts: "start": "json-server --watch db.json --port 3001" --> Chamar o json server pra ficar monitorando o db.json na porta 3001.
+
+npm start - Iniciando o servidor/banco
